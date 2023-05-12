@@ -1,0 +1,274 @@
+/* This css file is for writing custom css file */
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+/* Whtsapp icons on website start */
+  /* for desktop */
+  .whatsapp_float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 13px;
+    right: 88px;
+    /* background-color: #25d366; */
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    /* box-shadow: 2px 2px 3px #999; */
+    z-index: 100;
+}
+
+.whatsapp-icon {
+    margin-top: 16px;
+}
+.whatsapp-icon-fw{
+    color: rgb(37, 211, 102);
+    font-size: 52px;
+}
+
+/* for mobile */
+@media screen and (max-width: 767px) {
+    .whatsapp-icon {
+        margin-top: 10px;
+    }
+
+    .whatsapp_float {
+        width: 40px;
+        height: 40px;
+        bottom: 20px;
+        right: 10px;
+        font-size: 22px;
+    }
+}
+
+/* Row wise box styling start */
+.row-wise-box{
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-social-links{
+   padding: 30px 0;
+}
+.footer-social-links a{
+    color: #000;
+    border: 1px solid #ccc;
+    padding: 5px;
+    line-height: 1.5;
+    margin: 0 10px;
+}
+.footer-main-links{
+    padding-bottom:20px;
+}
+.footer-tags a{
+    color: #400000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.footer-tags-anchor{
+    padding: 0 6px;
+}
+.footer-tags-anchor:hover{
+   text-decoration: underline;
+   color: #761e1e;
+}
+/* Footer bottom anchor links */
+.footer-bottom-links:hover{
+    text-decoration: underline;
+    color: #000;
+}
+/* Tags anchor */
+.anchor-tags:hover{
+    text-decoration: underline;
+    color: #761e1e;
+}
+/* Trending images with content overlay section */
+
+.trending-image-wrapper .container {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("../images/trending/trending-wrapper.jpg") center center;
+    background-size: cover;
+    padding: 180px 60px;
+    margin-top: 20px;
+    overflow: hidden;
+    position: relative;
+  }
+  .trending-anchor-links{
+    position: absolute;
+    bottom: 22px;
+    left: 22px;
+  }
+  .trending-image-wrapper h3 {
+    color: #fff;
+    font-size: 22px;
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    
+  }
+  .trending-image-wrapper h3:hover {
+    color:#f55359;
+  }
+  .trending-image-wrapper p {
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+  }
+  .trending-image-wrapper p:hover {
+    color: #ffddde!important;
+    text-decoration: underline!important;
+  }
+
+/* trending wrapper section start */
+.trending-wrapper{
+    margin-top: 30px;
+}
+.trending-overlaping-text{
+    margin-top:-50px;
+    font-size:28px;
+    color:#fff;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 9999;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Top stories - Carousel section start */
+
+.carousel-indicators li{
+    position: relative;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin:0 5px;
+    cursor: pointer;
+}
+
+.carousel-caption{
+    background-color: rgba(0,0,0,0.7);
+    padding: 15px 30px 35px 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+}
+.carousel-caption h3{
+   font-size: 18px;
+   color: #fff;
+   line-height: 22px;
+}
+.carousel-caption p{
+    font-size: 12px;
+    color: #fff;
+ }
+.carousel-caption:hover{
+    margin-top: -50px;
+    background-color: rgba(0,0,0,0.7);
+}
+/* Business conversations section start */
+.bc-layout{
+    margin-top: 25px;
+}
+.bc-content{
+    margin-left: -10px;
+}
+@media screen and (max-width:576px){
+    .bc-content{
+        margin-left: 0px;
+    }
+}
+.bc-date-link{
+    color: #400000;
+}
+.bc-date-link-trending-wrapper .f1-s-3{
+    color:#fff;
+}
+.bc-date-link-trending-wrapper .f1-s-3:hover{
+    color: #400000;
+    text-decoration: underline;
+}
+.bc-date-link:hover{
+    color: #400000;
+    border-bottom:1px solid #400000
+}
+
+.business-conversations-header{
+    font-family: 'PT Serif', serif;
+    color: #000;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.business-conversations-header:hover{
+    color: #ea2127;
+}
+.business-conversations-paragraph{
+    color:#000
+}
+/* International News section start  */
+
+.international-title{
+    font-size: 18px!important;
+    color: #000;
+    margin-top: 14px;
+    line-height: 22px;
+    font-weight: 600;
+    font-family: 'PT Serif', serif;
+}
+.international-title:hover{
+    color: #ea2127;
+}
+/* Business conversations section start */
+.how3{
+    background: #ea2127;
+    color: #fff;
+    margin-top: -9px;
+    display: block;
+    padding: 8px 12px;
+}
+/* Article post section start */
+.header{
+    margin-bottom: 10px!important;
+    min-height: 65px;
+}
+.header .article-post-header{
+    color:#000;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'PT Serif', serif;
+    line-height: 19px;
+}
+.header .article-post-header:hover{
+    color: #ea2127;
+}
+
+.article-post-mini-box p{
+    font-size: 13px;
+    margin-bottom: 20px;
+    color:#000;
+}
+/* Older arrow button for inner-page */
+.older-btn{
+    margin-top: 30px;
+    width: 100%;
+    text-align: left;
+    padding: 23px 20px;
+    background-color: #eaedf3;
+    border: 1px solid #eaedf3;
+}
+.older-btn a{
+    color: #000;
+    font-size: 18px;
+}
+.older-btn a:hover{
+    color: #400000;
+}
+/* Media queries section start */
+@media screen and (max-width:576px){
+    .row-wise-box{
+        display: flex;
+        flex-direction: column;
+        gap:0.6rem
+    }
+}

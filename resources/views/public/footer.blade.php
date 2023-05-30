@@ -176,7 +176,7 @@
 
 						<ul>
 							<li class="flex-wr-sb-s p-b-20">
-								<h2 class="text-end display-2">1</h2>
+								<h2 class="display-4 footer-numbering">1</h2>
 
 								<div class="size-w-5">
 									<h6 class="p-b-5">
@@ -202,7 +202,7 @@
 								</div>
 							</li>
 							<li class="flex-wr-sb-s p-b-20">
-								<h2 class="text-end display-2">2</h2>
+								<h2 class="display-4 footer-numbering">2</h2>
 
 								<div class="size-w-5">
 									<h6 class="p-b-5">
@@ -237,7 +237,7 @@
 		<div class="bg11">
 			<div class="container size-h-4 flex-c-c p-tb-15" style="border-top:4px solid #000;display:flex;flex-direction:column;margin-top: -20px;">
 				<div class="footer-social-links">
-										<a href="#">
+										<a href="#" class="facebook-link">
 											<span class="fab fa-facebook-f"></span>
 										</a>
 
@@ -257,7 +257,7 @@
 			<span class="f1-s-1 cl0 txt-center">
 				Copyright 
 					<a href="#" class="f1-s-1 cl10 hov-link1"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-&copy;<script>document.write(new Date().getFullYear());</script> <a class="footer-bottom-links" href="https://www.business-northeast.com/">Business Northeast</a> . All rights reserved | Developed by <a href="https://codepilot.in" class="footer-bottom-links" target="_blank">Codepilot Technologies</a> | <a href="#" class="footer-bottom-links">Privacy Policy</a> | <a href="#" class="footer-bottom-links">T & C</a> | <a href="#" class="footer-bottom-links">Cancellation & Refund Policy</a> | <a href="#" class="footer-bottom-links">Payment Policy</a>
+&copy;<script>document.write(new Date().getFullYear());</script> <a class="footer-bottom-links" href="https://www.business-northeast.com/">Business Northeast</a> . All rights reserved | Developed by <a href="https://codepilot.in" class="footer-bottom-links" target="_blank">Codepilot Technologies</a> | <a href="{{url('/privacy-policy-footer')}}" class="footer-bottom-links">Privacy Policy</a> | <a href="{{url('/terms-and-condition')}}" class="footer-bottom-links">T & C</a> | <a href="{{url('/cancellation-refund')}}" class="footer-bottom-links">Cancellation & Refund Policy</a> | <a href="{{url('/payment-policy')}}" class="footer-bottom-links">Payment Policy</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 				</span>
 			</div>

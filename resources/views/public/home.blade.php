@@ -24,23 +24,32 @@
   text-align: right;
   font-size: 30px;
 }
-.ad-image{
+/* .ad-image{
 	background:red!important;
 }
+.ad-image img{
+	width: 50%!important;
+	text-align:center!important;
+}
+@media screen and (max-width:576px){
+	.ad-image img{
+	width: 92%!important;
+	text-align:center!important;
+}
+} */
 </style>
 @endsection
 @section('body')
 
     <!-- Ad section in the next to navbar -->
-	<div class="ad-image text-center">
-	  <img src="{{asset('assets/images/ad/HTH-Web-banner-900X100-pxl-01.jpg')}}" class="img-fluid" alt="ad-img" style="width:50%;text-align:center">
+	<div class="ad-image">
+	  <img src="{{asset('assets/images/ad/HTH-Web-banner-900X100-pxl-01.jpg')}}" alt="ad-img">
 	</div>
 	<!-- Post -->
 	<section class="post bg0 p-t-8">
 		<div class="container">
 			<div class="row justify-content-center">
 				
-
 				<div class="col-md-10 col-lg-3">
 						<!-- TOP STORIES -->
 						<div class="p-b-35 mt-2">
@@ -380,33 +389,7 @@
 
 							<ul class="p-t-35">
 								<li class="flex-wr-sb-s p-b-20">
-									<h2 class="text-end display-4">1</h2>
-									<div class="size-w-5">
-										<h6 class="p-b-5">
-											<a href="#" class="f1-s-5 cl11 hov-cl10 trans-03">
-											Punjab & Sind Bank records 32% rise in net profit in FY23
-											</a>
-										</h6>
-
-										<a href="#" class="bc-date-link">
-													<span class="cl8">
-														<span class="f1-s-3">
-															April 25 , 2023
-														</span>
-													</span>
-												</a>
-										<h2>/</h2>
-										<span class="footer-tags">
-										<a href="#" class="anchor-tags">Banking</a>
-										<a href="#" class="anchor-tags">Economy</a>
-										<a href="#" class="anchor-tags">National</a>	
-										<a href="#" class="anchor-tags">Top Stories</a>	
-										</span>
-									</div>
-								</li>
-
-								<li class="flex-wr-sb-s p-b-20">
-									<h2 class="text-end display-4">2</h2>
+									<h2 class="display-4 footer-numbering">1</h2>
 									<div class="size-w-5">
 										<h6 class="p-b-5">
 											<a href="#" class="f1-s-5 cl11 hov-cl10 trans-03">
@@ -431,7 +414,7 @@
 									</div>
 								</li>
 								<li class="flex-wr-sb-s p-b-20">
-									<h2 class="text-end display-4">3</h2>
+									<h2 class="display-4 footer-numbering">2</h2>
 									<div class="size-w-5">
 										<h6 class="p-b-5">
 											<a href="#" class="f1-s-5 cl11 hov-cl10 trans-03">
@@ -456,7 +439,7 @@
 									</div>
 								</li>
 								<li class="flex-wr-sb-s p-b-20">
-									<h2 class="text-end display-4">4</h2>
+									<h2 class="display-4 footer-numbering">3</h2>
 									<div class="size-w-5">
 										<h6 class="p-b-5">
 											<a href="#" class="f1-s-5 cl11 hov-cl10 trans-03">
@@ -481,7 +464,32 @@
 									</div>
 								</li>
 								<li class="flex-wr-sb-s p-b-20">
-									<h2 class="text-end display-4">5</h2>
+									<h2 class="display-4 footer-numbering">4</h2>
+									<div class="size-w-5">
+										<h6 class="p-b-5">
+											<a href="#" class="f1-s-5 cl11 hov-cl10 trans-03">
+											Punjab & Sind Bank records 32% rise in net profit in FY23
+											</a>
+										</h6>
+
+										<a href="#" class="bc-date-link">
+													<span class="cl8">
+														<span class="f1-s-3">
+															April 25 , 2023
+														</span>
+													</span>
+												</a>
+										<h2>/</h2>
+										<span class="footer-tags">
+										<a href="#" class="anchor-tags">Banking</a>
+										<a href="#" class="anchor-tags">Economy</a>
+										<a href="#" class="anchor-tags">National</a>	
+										<a href="#" class="anchor-tags">Top Stories</a>	
+										</span>
+									</div>
+								</li>
+								<li class="flex-wr-sb-s p-b-20">
+									<h2 class="display-4 footer-numbering">5</h2>
 									<div class="size-w-5">
 										<h6 class="p-b-5">
 											<a href="#" class="f1-s-5 cl11 hov-cl10 trans-03">

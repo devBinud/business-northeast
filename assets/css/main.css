@@ -151,7 +151,8 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 
 @media (max-width: 575px) {
   .btn-back-to-top {
-    bottom: 0px;
+    /* bottom: 0px; */
+    bottom: -72px;
     right: 15px;
   }
 }
@@ -200,6 +201,8 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 .left-topbar-item {
   font-size: 15px;
   color: #000;
+  border: 1px dotted #ddd;
+  margin: 3px;
   line-height: 1.8;
   padding: 0 20px;
   position: relative;
@@ -220,7 +223,7 @@ a.left-topbar-item:hover {
   position: absolute;
   width: 1px;
   height: 50px;
-  background-color: #dcdcdc;
+  /* background-color: #dcdcdc; */
   /* color: #000; */
   /* opacity: 0.1; */
   left: 0;
@@ -277,7 +280,7 @@ a.left-topbar-item:hover {
 /*------------------------------------------------------------------
 [ Topbar mobile ]*/
 .topbar-mobile {
-  background-color: #222;
+  background-color: #f8f8f8;;
   padding: 8px 25px 5px 25px;
 }
 
@@ -363,8 +366,8 @@ a.left-topbar-item:hover {
 }
 
 .logo-stick img {
-  max-width: 115px;
-  max-height: 30px;
+  max-width: 118px;
+  max-height: 25px;
 }
 
 
@@ -744,10 +747,10 @@ li.respon-sub-menu > .sub-menu .sub-menu {
 
 .logo-mobile img {
   max-width: calc(100% - 35px);
-  max-height: 60%;
-  position:absolute;
-  top: 0; 
-  left: 0; 
+  max-height: 72%;
+  position: absolute;
+  top: 8px;
+  left: 0;
   bottom: 0;
   margin: auto;
 }
@@ -787,13 +790,15 @@ li.respon-sub-menu > .sub-menu .sub-menu {
 .main-menu-m {
   padding-top: 13px;
   padding-bottom: 23px;
-  background-color: #ea2127;
+  /* background-color: #ea2127; */
 }
 
 .main-menu-m > li > a {
-  font-family: Roboto-Regular;
-  font-size: 16px;
-  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #000;
   line-height: 2.8;
   padding: 9px 25px 9px 25px;
 
@@ -804,12 +809,14 @@ li.respon-sub-menu > .sub-menu .sub-menu {
 }
 
 .main-menu-m > li > a:hover {
-  color: #fff;
+  /* color: #fff; */
+  color: #400000;
 }
 
 .main-menu-m > li {
   position: relative;
-  background-color:#ea2127;
+  border-bottom:1px solid #eee;
+  /* background-color:#ea2127; */
 }
 
 .arrow-main-menu-m {
@@ -1633,7 +1640,8 @@ a.breadcrumb-item:hover {
 
 /*---------------------------------------------*/
 .how-bor2 {
-  border-bottom: 1px solid #f0f0f0;
+  /* border-bottom: 1px solid #f0f0f0; */
+  border:none!important;
 }
 
 .how-bor2:last-child {

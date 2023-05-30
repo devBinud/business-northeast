@@ -1,32 +1,49 @@
+/* font family import from google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
 /* This css file is for writing custom css file */
 p{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
+/* Ad section  */
+.ad-image{
+    text-align:center;
+}
+.ad-image img{
+    width: 50%;
+}
+/* media query for ad-img  */
+@media screen and (max-width:576px){
+    .ad-image{
+        text-align:center;
+        margin-top:-22px;
+    }
+    .ad-image img{
+        width: 92%;
+    }
+}
 /* Whtsapp icons on website start */
   /* for desktop */
   .whatsapp_float {
     position: fixed;
-    width: 60px;
-    height: 60px;
-    bottom: 13px;
-    right: 88px;
-    /* background-color: #25d366; */
-    color: #FFF;
-    border-radius: 50px;
+    width: 45px;
+    height: 45px;
+    bottom: 25px;
+    right: 100px;
+    background-color: rgb(37, 211, 102);
+    color: #fff;
+    border-radius: 7px;
     text-align: center;
     font-size: 30px;
-    /* box-shadow: 2px 2px 3px #999; */
+    box-shadow: 2px 2px 3px #999;
     z-index: 100;
 }
 
 .whatsapp-icon {
     margin-top: 16px;
 }
-.whatsapp-icon-fw{
-    color: rgb(37, 211, 102);
-    font-size: 52px;
-}
+
 
 /* for mobile */
 @media screen and (max-width: 767px) {
@@ -35,11 +52,15 @@ p{
     }
 
     .whatsapp_float {
-        width: 40px;
-        height: 40px;
-        bottom: 20px;
-        right: 10px;
-        font-size: 22px;
+      width: 45px;
+      height: 44px;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      bottom: 27px;
+      right: 71px;
+      align-items: center;
+      font-size: 30px;
     }
 }
 
@@ -206,6 +227,27 @@ p{
 .business-conversations-paragraph{
     color:#000
 }
+/* background-image of banner styling */
+.bg-img2{
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-size: 75%;
+}
+.bg-img3{
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 85%;
+}
+/* media queries for it */
+@media screen and (max-width: 576px){
+.bg-img2 {
+    background-size: 100%;
+}
+.bg-img3 {
+  background-size: 100%;
+}
+}
 /* International News section start  */
 
 .international-title{
@@ -264,6 +306,292 @@ p{
 .older-btn a:hover{
     color: #400000;
 }
+
+ /* subscribe now section start */
+
+ .subscribe-header{
+    margin-bottom:20px;
+ }
+ .subscribe-header h4{
+    font-size:26px;
+    font-family: 'Lora', serif;
+    font-weight:600;
+    color:#141010;
+    margin-bottom:10px;
+ }
+ .subscribe-header h5{
+    font-size:23px;
+    font-weight:600;
+    font-family: 'Lora', serif;
+    color:#141010;
+ }
+ /* media queries */
+ @media screen and (max-width:576px){
+  .subscribe-header h4{
+    font-size:20px;
+    margin-top:-20px;
+ }
+ .subscribe-header h5{
+    font-size:16px;
+ }
+ }
+ .subscribe-input{
+    background:#eaedf3!important;
+    border:1px solid eaedf3;
+  }
+  .subscribe-textarea{
+    background:#eaedf3!important;
+    border:1px solid eaedf3;
+  }
+  .subscribe-input, ::placeholder{
+    font-size:15px;
+    color:#eaedf3;
+    letter-spacing:1px;
+  }
+
+  .subscribe-input:focus{
+    background:#eaedf3!important;
+    border:1px dotted #000;
+  }
+  .subscribe-textarea:focus{
+    background:#eaedf3!important;
+    border:1px dotted #000;
+  }
+  .subscribe-btn{
+    background:#400000;
+    color:#fff!important;
+  }
+  /* contact us page start */
+
+  .top-header{
+    font-family: 'Lora', serif;
+    font-weight:600;
+    margin-bottom:70px;
+    text-align:center;
+    font-size:26px;
+    color:#ea2127!important;
+  }
+
+  .contact-details h4{
+   font-size:23px;
+   font-weight:600;
+   font-family: 'Lora', serif;
+   color:#141010;
+  }
+  .contact-details h5{
+    font-size:20px;
+    font-weight:500;
+    font-family: 'Lora', serif;
+    color:#141010;
+   }
+  .contact-details p{
+    font-size:16px;
+    font-family: 'Lora', serif;
+    color:#141010;
+  }
+  @media screen and (max-width:576px){
+    .top-header{
+    margin-bottom: 50px;
+    font-size: 20px;
+    margin-top: -36px;
+    }
+    .contact-details h4{
+      font-size:19px;
+     }
+    .contact-details h5{
+      font-size:18px;
+     }
+  }
+  /* about us section start */
+  .about-us-wrapper h5{
+    color:#717171;
+    font-family: 'Lora', serif;
+    font-size:24px;
+  }
+  .about-us-wrapper span{
+    color:#141010;
+    font-family: 'Lora', serif;
+  }
+  .about-top-header{
+    text-align:center;
+    font-family: 'Lora', serif;
+    font-size:28px;
+    font-weight:600;
+  }
+  @media screen and (max-width:576px){
+    .about-top-header{
+        font-size:20px;
+        margin-top:-20px;
+      }
+  }
+  .about-top-header span{
+    color:#ec353c;
+  }
+  /* about us section end */
+
+  .essence-of-our-product{
+    margin-top:30px;
+  }
+  .essence-of-our-product-wrapper{
+    margin-bottom:30px;
+  }
+  .essence-of-our-product-list ul{
+    margin-left:20px;
+  }
+  .essence-of-our-product-list ul li{
+    font-family: 'Lora', serif;
+    font-size:17px;
+    list-style:circle;
+    line-height:28px;
+  }
+  .impact-on-business-house{
+   margin-top:20px;  
+  }
+  .impact-on-business-house h5{
+    margin-bottom:10px;  
+   }
+   .impact-on-business-house p{
+    font-size:16px;
+    font-family: 'Lora', serif;
+   }
+  .creating-awareness{
+    margin-top:25px;
+  }
+  .creating-awareness h3{
+    font-size:26px;
+    color:#141010;
+    font-weight:600;
+    font-family: 'Lora', serif;
+  }
+  .creating-awareness-list ul{
+    margin-left:20px;
+    margin-top:10px;
+  }
+  .creating-awareness-list ul li{
+    list-style:circle;
+    font-size:17px;
+    font-family: 'Lora', serif;
+  }
+  /* privacy policy secrtion start */
+  .privacy-policy-header{
+    font-family: 'Lora', serif;
+    font-size:22px;
+    font-weight:600;
+  }
+  .privacy-policy-wrapper p{
+    font-size:16px;
+    font-family: 'Lora', serif;
+  }
+  .how-we-used-it-list ul{
+    margin-left:20px;
+  }
+  .how-we-used-it-list ul li{
+    list-style:circle;
+    font-size:16px;
+    font-family: 'Lora', serif;
+  }
+  .how-we-disclose ul{
+    margin-left:20px;
+  }
+  .how-we-disclose ul li{
+    list-style:circle;
+    font-size:16px;
+    font-family: 'Lora', serif;
+  }
+  .privacy-policy-address{
+    margin-top:30px;
+  }
+  .privacy-policy-address h5{
+    font-family: 'Lora', serif;
+    font-size:17px;
+    font-weight:600;
+  }
+  .privacy-policy-address h6{
+    font-family: 'Lora', serif;
+    font-size:16px;
+    font-weight:600;
+  }
+  .privacy-policy-address p{
+    font-weight:500;
+  }
+  @media screen and (max-width:576px){
+    .privacy-policy-address{
+      margin-top:10px;
+    }
+  }
+  /* privacy policy secrtion end */
+
+  /* Report us section start */
+  .report-news-header{
+    font-family: 'Lora', serif;
+    font-size:24px;
+    font-weight:600;
+  }
+  .mail-header{
+    font-family: 'Lora', serif;
+    font-size:24px;
+    font-weight:600;
+  }
+  .mail-header:hover{
+    text-decoration:underline!important;
+  }
+  /* Report us section ends */
+  /* Advertise section starts */
+  .advertise-header{
+    font-family: 'Lora', serif;
+    font-size:24px;
+    font-weight:600;
+  }
+  .advertise-mail-header{
+    font-family: 'Lora', serif;
+    font-size:24px;
+    font-weight:600;
+  }
+  .advertise-mail-header:hover{
+    text-decoration:underline!important;
+  }
+  /* Advertise section ends */
+
+  /* Privacy policy section start */
+  .privacy-main-content-header{
+    /* font-family: 'Lora', serif; */
+    font-family:'Roboto';
+    /* color:#666; */
+    color:#121212;
+    font-size:22px;
+    font-weight:600;
+    padding:10px 0;
+  }
+  .privacy-main-content-footer p{
+    /* font-family: 'Lora', serif; */
+    font-family:'Roboto';
+    font-size:17px;
+    color:#121212;
+  }
+    .privacy-mail-header{
+      font-size:16px;
+      font-weight:600;
+      /* font-family: 'Lora', serif; */
+      font-family:'Roboto';
+      color:#121212;
+    }
+  /* Privacy policy section ends */
+
+/* footer social icon hover  */
+
+.footer-social-links a:hover{
+  color:#ea2127;
+  transition:0.3s ease;
+}
+/* footer numbering style start */
+ .footer-numbering{
+  margin-top:40px;
+  font-family: 'Lora', serif;
+  font-size:24px!important;
+  font-weight:600!important;
+  margin-left:30px;
+ }
+/* footer numbering style end */
 /* Media queries section start */
 @media screen and (max-width:576px){
     .row-wise-box{
@@ -271,4 +599,19 @@ p{
         flex-direction: column;
         gap:0.6rem
     }
+    .privacy-main-content-header{
+      font-size:18px;
+    }
+    .privacy-main-content-footer p{
+      font-size:14px;
+    }
+    /* essance of our product image  */
+    .essense-of-our-product-img{
+      margin:14px 0;
+    }
+    /* about us image */
+    .about-us-image{
+      margin:14px 0;
+    }
+
 }

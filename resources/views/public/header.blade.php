@@ -18,22 +18,22 @@
 							</span>
 						</span>
 
-						<a href="#" class="left-topbar-item">
+						<a href="{{url('/about')}}" class="left-topbar-item">
 							About
 						</a>
 
-						<a href="#" class="left-topbar-item">
+						<a href="{{url('/report-news')}}" class="left-topbar-item">
 							Report News
 						</a>
 
-						<a href="#" class="left-topbar-item">
+						<a href="{{url('/advertise')}}" class="left-topbar-item">
 							Advertise
 						</a>
 
-						<a href="#" class="left-topbar-item">
+						<a href="{{url('/privacy')}}" class="left-topbar-item">
 							Privacy
 						</a>
-						<a href="#" class="left-topbar-item">
+						<a href="{{url('/contact')}}" class="left-topbar-item">
 							Contact
 						</a>
 					</div>
@@ -73,7 +73,7 @@
 			<div class="wrap-header-mobile">
 				<!-- Logo moblie -->		
 				<div class="logo-mobile">
-					<a href="index.html"><img src="{{asset('assets/images/icons/logo-01.png')}}" alt="IMG-LOGO"></a>
+					<a href="{{url('/')}}"><img src="{{asset('assets/images/logo/Business-logo-Final-01.png')}}" alt="business-northeast-logo"></a>
 				</div>
 
 				<!-- Button show menu -->
@@ -88,34 +88,39 @@
 			<div class="menu-mobile">
 				<ul class="topbar-mobile">
 					<li class="left-topbar">
-						<span class="left-topbar-item flex-wr-s-c">
-							<span>
-								New York, NY
-							</span>
-
-							<img class="m-b-1 m-rl-8" src="{{asset('assets/images/icons/icon-night.png')}}" alt="IMG">
-
-							<span>
-								HI 58° LO 56°
+						<span class="left-topbar-item flex-wr-s-c" style="border:none!important;">
+						<span class="day-month-year">
+								 <!-- Day display -->
+								 <span id="getDay">Tuesday</span><span>,</span>
+								<!-- Month display -->
+								<span id="getMonthName">May</span>
+								<!-- Date display -->
+								<span id="getDate">16</span><span>,</span>
+								<!-- Year Display -->
+								<span id="MyClockDisplay">2023</span>
 							</span>
 						</span>
 					</li>
 
 					<li class="left-topbar">
-						<a href="#" class="left-topbar-item">
+						<a href="{{url('/about')}}" class="left-topbar-item">
 							About
 						</a>
 
-						<a href="#" class="left-topbar-item">
+						<a href="{{url('/report-news')}}" class="left-topbar-item">
+							Report News
+						</a>
+
+						<a href="{{url('/advertise')}}" class="left-topbar-item">
+							Advertise
+						</a>
+
+						<a href="{{url('/privacy')}}" class="left-topbar-item">
+							Privacy
+						</a>
+
+						<a href="{{url('/contact')}}" class="left-topbar-item">
 							Contact
-						</a>
-
-						<a href="#" class="left-topbar-item">
-							Sing up
-						</a>
-
-						<a href="#" class="left-topbar-item">
-							Log in
 						</a>
 					</li>
 
@@ -125,78 +130,50 @@
 						</a>
 
 						<a href="#">
+							<span class="fab fa-instagram"></span>
+						</a>
+
+						<a href="#">
 							<span class="fab fa-twitter"></span>
 						</a>
 
 						<a href="#">
-							<span class="fab fa-pinterest-p"></span>
-						</a>
-
-						<a href="#">
-							<span class="fab fa-vimeo-v"></span>
-						</a>
-
-						<a href="#">
-							<span class="fab fa-youtube"></span>
+							<span class="fab fa-linkedin"></span>
 						</a>
 					</li>
 				</ul>
 
 				<ul class="main-menu-m">
+					
 					<li>
-						<a href="index.html">Home</a>
-						<ul class="sub-menu-m">
-							<li><a href="index.html">Homepage v1</a></li>
-							<li><a href="home-02.html">Homepage v2</a></li>
-							<li><a href="home-03.html">Homepage v3</a></li>
-						</ul>
+						<a href="{{url('/')}}">Home</a>
+					</li>
+					<li>
+						<a href="{{url('/northeast')}}">Northeast</a>
+					</li>
 
-						<span class="arrow-main-menu-m">
-							<i class="fa fa-angle-right" aria-hidden="true"></i>
-						</span>
+
+					<li>
+						<a href="{{url('/national')}}">National </a>
 					</li>
 
 					<li>
-						<a href="category-01.html">News</a>
+						<a href="{{url('/international')}}">International</a>
 					</li>
 
 					<li>
-						<a href="category-02.html">Entertainment </a>
+						<a href="{{url('/videos')}}">Videos</a>
 					</li>
 
 					<li>
-						<a href="category-01.html">Business</a>
+						<a href="{{url('/business-conversation')}}">Business Conversations</a>
 					</li>
 
 					<li>
-						<a href="category-02.html">Travel</a>
+						<a href="{{url('/articles')}}">Articles</a>
 					</li>
-
 					<li>
-						<a href="category-01.html">Life Style</a>
-					</li>
-
-					<li>
-						<a href="category-02.html">Video</a>
-					</li>
-
-					<li>
-						<a href="#">Features</a>
-						<ul class="sub-menu-m">
-							<li><a href="category-01.html">Category Page v1</a></li>
-							<li><a href="category-02.html">Category Page v2</a></li>
-							<li><a href="blog-grid.html">Blog Grid Sidebar</a></li>
-							<li><a href="blog-list-01.html">Blog List Sidebar v1</a></li>
-							<li><a href="blog-list-02.html">Blog List Sidebar v2</a></li>
-							<li><a href="blog-detail-01.html">Blog Detail Sidebar</a></li>
-							<li><a href="blog-detail-02.html">Blog Detail No Sidebar</a></li>
-							<li><a href="about.html">About Us</a></li>
-							<li><a href="contact.html">Contact Us</a></li>
-						</ul>
-
-						<span class="arrow-main-menu-m">
-							<i class="fa fa-angle-right" aria-hidden="true"></i>
-						</span>
+						<a href="{{url('/subscribe-now')}}">Subscribe Now</a>
 					</li>
 				</ul>
 			</div>
@@ -205,7 +182,7 @@
 			<div class="wrap-logo container">
 				<!-- Logo desktop -->		
 				<div class="logo">
-					<a href="index.html"><img src="{{asset('assets/images/logo/Business-logo-Final-01.png')}}" alt="logo"></a>
+					<a href="{{url('/')}}"><img src="{{asset('assets/images/logo/Business-logo-Final-01.png')}}" alt="logo"></a>
 				</div>	
 
 				<!-- Banner -->
@@ -231,31 +208,31 @@
 								<a href="#">NORTHEAST <i style="color:#454545" class="fa-solid fa-chevron-down ml-2"></i></a>
 								<ul class="sub-menu">
 									<li><a href="{{url('/assam')}}">Assam</a></li>
-									<li><a href="{{url('/')}}">Arunachal</a></li>
-									<li><a href="{{url('/')}}">Meghalaya</a></li>
-									<li><a href="{{url('/')}}">Manipur</a></li>
-									<li><a href="{{url('/')}}">Mizoram</a></li>
-									<li><a href="{{url('/')}}">Nagaland</a></li>
-									<li><a href="{{url('/')}}" style="border-bottom:none!important">Tripura</a></li>
+									<li><a href="{{url('/assam')}}">Arunachal</a></li>
+									<li><a href="{{url('/assam')}}">Meghalaya</a></li>
+									<li><a href="{{url('/assam')}}">Manipur</a></li>
+									<li><a href="{{url('/assam')}}">Mizoram</a></li>
+									<li><a href="{{url('/assam')}}">Nagaland</a></li>
+									<li><a href="{{url('/assam')}}" style="border-bottom:none!important">Tripura</a></li>
 								</ul>
 							</li>
 							<li>
-								<a href="{{url('/')}}">NATIONAL</a>
+								<a href="{{url('/national')}}">NATIONAL</a>
 							</li>
 							<li>
-								<a href="{{url('/')}}">INTERNATIONAL</a>
+								<a href="{{url('/international')}}">INTERNATIONAL</a>
 							</li>
 							<li>
-								<a href="{{url('/')}}">VIDEOS</a>
+								<a href="{{url('/videos')}}">VIDEOS</a>
 							</li>
 							<li>
-								<a href="{{url('/')}}">BUSINESS CONVERSATIONS</a>
+								<a href="{{url('/business-conversation')}}">BUSINESS CONVERSATIONS</a>
 							</li>
 							<li>
-								<a href="{{url('/')}}">ARTICLES</a>
+								<a href="{{url('/articles')}}">ARTICLES</a>
 							</li>
 							<li>
-								<a href="{{url('/')}}">SUBSCRIBE NOW</a>
+								<a href="{{url('/subscribe-now')}}">SUBSCRIBE NOW</a>
 							</li>
 						</ul>
 					</nav>

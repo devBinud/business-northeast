@@ -75,8 +75,9 @@
         target="_blank"
         rel="noopener noreferrer"
       >
-        <!-- <i class="bi bi-whatsa"></i> -->
-        <i class="whatsapp-icon-fw fa-brands fa-square-whatsapp"></i>
+        <!-- <i class="whatsapp-icon-fw fa-brands fa-square-whatsapp"></i> -->
+        <!-- <i class="fa-brands fa-whatsapp text-white"></i> -->
+        <i class="fa-brands fa-whatsapp text-white"></i>
       </a>
 
 	<!-- Back to top -->
